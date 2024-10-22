@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --bl : #000000; 
+    --wh : #FAFAFA ;
+    --or : #E77917 ;
+}
+
+body{
+
+ 
+    font-family: "Poppins", sans-serif ;
+    overflow-x: hidden;
+}
+
+/* header css */
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: var(--or) !important;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: var(--wh);
+    width: 100vw;
+    height: 80vh;
+}
+
+
+.header-content{
+   
+    align-items: center;
+    padding-top: 100px;
+}
+
+
+.header-con {
+   
+   padding-top: 100px;
+   padding-bottom: 50%;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: var(--or);
+    border-radius: 5px;
+}
+ 
+.header-con h1 {
+font-size: 60px;
+}
+
+.header-con h3 ,.header-con p{
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
+#cart{
+    font-size: 50px;
+}
+
+/* category */
+
+.category img{
+    height: 500px;
+}
+
+#Category{
+    display: flex;
+    margin: 80px auto;
+    justify-content: space-between;
+    
+}
+
+.category{
+    text-align: center;
+}
+
+
+/* product*/
+
+.product img{
+    height: 300px;
+    padding: 5px;
+
+}
+
+#products{
+margin: 80px auto;
+
+}
+
+.product-head{
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* offer */
+
+#offer{
+    margin: 80px auto;
+    background-color: var(--wh);
+}
+
+#offer .container{
+    display: flex;
+    align-items: center;
+}
+
+#offer .container img {
+    max-width: 600px;
+}
+.offer-con{
+    padding: 50px;
+}
+
+.offer-con h1{
+    font-size: 50px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 750px){
+    .container{
+        width: 100%;
+    }
+
+    
+.header-content{
+   
+    
+    padding-top: 30px;
+}
+   
+    .products{
+        flex-direction: column;
+        justify-content: space-evenly;    
+
+    }
+    .category{
+
+        display: none;
+      
+    }
+    
+
+    /* offer */
+
+
+    #offer .container{
+    flex-direction: column;
+    }
+
+    #offer .container img {
+    max-width: 300px;
+    }
+
+}

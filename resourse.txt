@@ -1,0 +1,15 @@
+colour pallet
+==============
+
+--bl : #130912 
+--wh : #FAFAFA 
+--or : #E77917 
+
+
+utf code
+=========== 
+
+arrow - &#8594;
+black star - &#9733;
+white star - &#9734;
+  
